@@ -1,6 +1,6 @@
 #contenedor {
     background-color: #fff8f0;
-    font-family: 'Times New Roman', serif;
+    font-family: Times New Roman, serif;
     font-size: 16px;
 }
 
@@ -12,4 +12,37 @@ div.encabezado {
     text-align: center;
     height: 400px;
     background-position: bottom;
+}
+
+div.menu ul li a:hover {
+    color: #8b6f47;
+}
+
+div.menu ul li a {
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+div.contenido {
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+div.sidebar {
+    background-color: #ecdcc6;
+    color: #5a3e36;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+div.pie {
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
