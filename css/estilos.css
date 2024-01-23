@@ -50,3 +50,12 @@ div.pie {
     font-size: 16px;
     text-align: center;
 }
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 5px;
+}
