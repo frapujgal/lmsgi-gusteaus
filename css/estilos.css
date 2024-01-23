@@ -39,9 +39,13 @@ div.sidebar {
     font-size: 18px;
 }
 
+div.pie a {
+    padding: 10px;
+}
+
 div.pie {
-    background-color: #a77e58;
-    color: #ffffff;
+    background-color: #5a3e36;
+    color: #ecdcc6;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
