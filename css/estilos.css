@@ -3,12 +3,16 @@
     margin: 0px;
 }
 
+#contenedor .clearfix {
+    overflow: auto;
+}
+
 #contenedor {
+    clear: none;
     background-color: #fff8f0;
     font-family: Times New Roman, serif;
     font-size: 16px;
-    margin: 5px;
-    padding: 10px;
+    line-height: 40px;
 }
 
 div.encabezado {
@@ -50,7 +54,6 @@ div.contenido {
     float: left;
     width: 70%;
     padding: 0px;
-    margin: 0px;
 }
 
 div.sidebar {
@@ -60,6 +63,30 @@ div.sidebar {
     font-size: 18px;
     float: right;
     width: 30%;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+p {
+    padding-left: 50px;
+}
+
+.contenido ul {
+    padding-left: 50px;
+}
+
+.sidebar ul {
+    padding-left: 80px;
 }
 
 div.pie a {
