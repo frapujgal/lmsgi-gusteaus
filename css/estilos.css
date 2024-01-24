@@ -6,16 +6,25 @@
 
 div.encabezado {
     background-image: url(../imgs/guesteaus.png);
+    background-repeat: none;
     color: #5a3e36;
     font-family: Georgia, serif;
     font-size: 36px;
     text-align: center;
     height: 400px;
+    background-size: cover;
     background-position: bottom;
 }
 
+div.menu {
+    background-color: #a77e58;
+}
+
 div.menu ul li a:hover {
-    color: #8b6f47;
+    color: #5a3e36;
+    background-color: #5a3e3675;
+    text-decoration: underline;
+    font-family: serif;
 }
 
 div.menu ul li a {
@@ -23,6 +32,7 @@ div.menu ul li a {
     color: #ffffff;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
+    text-decoration: none;
 }
 
 div.contenido {
@@ -49,4 +59,13 @@ div.pie {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 5px;
 }
