@@ -1,7 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 #contenedor {
     background-color: #fff8f0;
     font-family: Times New Roman, serif;
     font-size: 16px;
+    margin: 5px;
+    padding: 10px;
 }
 
 div.encabezado {
@@ -40,6 +47,10 @@ div.contenido {
     color: #5a3e36;
     font-family: Georgia, serif;
     font-size: 18px;
+    float: left;
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
 }
 
 div.sidebar {
@@ -47,6 +58,8 @@ div.sidebar {
     color: #5a3e36;
     font-family: Georgia, serif;
     font-size: 18px;
+    float: right;
+    width: 30%;
 }
 
 div.pie a {
