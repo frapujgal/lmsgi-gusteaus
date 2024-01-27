@@ -22,20 +22,34 @@
         <div class="contenido">
             <h1>Reservas</h1>
             
-            <form action="/submit-form" method="post">
-                    <p><label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre" size="40"></p>
+            <form action="" method="post">
+                    <p><label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre" size="40" required>
+                    </p>
 
-                    <p><label for="email">Email: </label><input type="text" id="email" name="email" size="40"></p>
+                    <p><label for="email">Email: </label>
+                        <input type="email" id="email" name="email" size="40">
+                    </p>
 
-                    <p><label for="telefono">Teléfono: </label><input type="text" id="telefono" name="telefono" size="9"></p>
+                    <p><label for="telefono">Teléfono: </label>
+                        <input type="tel" id="telefono" name="telefono" maxlength="9" minlength="9" required>
+                    </p>
 
-                    <p><label for="pax">Número de personas: </label><input type="text" id="pax" name="pax" size="3"></p>
+                    <p><label for="pax">Número de personas: </label>
+                        <input type="text" id="pax" name="pax" size="2" required>
+                    </p>
                     
-                    <p><label for="fecha">Fecha de la reserva: </label><input type="date" id="fecha" name="fecha"></p>
+                    <p><label for="fecha">Fecha de la reserva: </label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </p>
         
-                    <p><label for="hora">Hora de la reserva: </label><input type="time" id="hora" name="hora"></p>
+                    <p><label for="hora">Hora de la reserva: </label>
+                        <input type="time" id="hora" name="hora" required>
+                    </p>
 
-                    <p><label for="peticiones">Peticiones especiales:<br></label><textarea id="peticiones" name="peticiones" cols="50" rows="6"></textarea></p>
+                    <p><label for="peticiones">Peticiones especiales:</label>
+                        <textarea id="peticiones" name="peticiones" cols="50" rows="6"></textarea>
+                    </p>
 
                     <p><button type="submit">Reservar Mesa</button></p>
 
