@@ -46,6 +46,34 @@ div.menu ul li a {
     text-decoration: none;
 }
 
+div.contenido form input[type='text'],input[type='email'],input[type='tel'] {
+    border: 1px solid #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+}
+
+label {
+    size: 16px;
+    display: block;
+}
+
+.error {
+    color: red;
+    display: block;
+}
+
+div.contenido form button[type='submit'] {
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+div.contenido form button[type='submit']:hover {
+    background-color: #a77e58;
+}
+
 div.contenido {
     background-color: #fff8f0;
     color: #5a3e36;

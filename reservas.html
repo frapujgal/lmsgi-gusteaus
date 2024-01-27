@@ -20,20 +20,42 @@
             </ul>
         </div>
         <div class="contenido">
-            <h1>Bienvenidos a Gusteau's</h1>
-            <p>Descubre la magia de la cocina parisina en el corazón de la ciudad. Gusteau's es más que un restaurante; es una experiencia culinaria inolvidable.</p>
-            <h2>Sobre Nosotros</h2>
-            <p>Con una historia rica y una pasión por la excelencia culinaria, Gusteau's ha sido un icono de la gastronomía parisina durante más de 50 años.</p>
-            <h3>Nuestro Menú</h3>
-            <ul>
-                <li>Entradas Clásicas</li>
-                <li>Platos Principales Innovadores</li>
-                <li>Postres Exquisitos</li>
-            </ul>
-            <h3>Reservas</h3>
-            <p>Reserve su mesa para una experiencia gastronómica inolvidable. Disfrute de la alta cocina en un ambiente elegante y acogedor.</p>
-            <h3>Contacto</h3>
-            <p>¿Preguntas? Contáctenos a través de nuestro formulario en línea o llámenos directamente.</p>
+            <h1>Reservas</h1>
+            
+            <form action="" method="post">
+                    <p><label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre" size="40" required>
+                    </p>
+
+                    <p><label for="email">Email: </label>
+                        <input type="email" id="email" name="email" size="40">
+                    </p>
+
+                    <p><label for="telefono">Teléfono: </label>
+                        <input type="tel" id="telefono" name="telefono" maxlength="9" minlength="9" required>
+                    </p>
+
+                    <p><label for="pax">Número de personas: </label>
+                        <input type="text" id="pax" name="pax" size="2" required>
+                    </p>
+                    
+                    <p><label for="fecha">Fecha de la reserva: </label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </p>
+        
+                    <p><label for="hora">Hora de la reserva: </label>
+                        <input type="time" id="hora" name="hora" required>
+                    </p>
+
+                    <p><label for="peticiones">Peticiones especiales:</label>
+                        <textarea id="peticiones" name="peticiones" cols="50" rows="6"></textarea>
+                    </p>
+
+                    <p><button type="submit">Reservar Mesa</button></p>
+
+            </form>
+
+
         </div>
         <div class="sidebar">
             <h2>Eventos Especiales</h2>
