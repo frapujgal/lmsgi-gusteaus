@@ -15,6 +15,29 @@
     line-height: 40px;
 }
 
+header h1 {
+    text-align: center;
+}
+
+.menu-estrella {
+    text-align: center;
+    padding: 10px;
+}
+
+.menu-estrella h2 {
+    color: #5a3e36;
+}
+
+.menu-estrella ul li {
+    color: #a77e58;
+}
+
+
+.menu-estrella ul {
+    margin: 15px;
+    list-style: none;
+}
+
 div.encabezado {
     background-image: url(../imgs/guesteaus.png);
     background-repeat: none;
